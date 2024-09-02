@@ -5,7 +5,7 @@ public class SammysRentalPrice {
         Scanner scanner = new Scanner(System.in);
 
         System.out.println("SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS");
-        System.out.println("S Sammy’s makes it fun in the sun. S");
+        System.out.println("S Sammys makes it fun in the sun. S");
         System.out.println("SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS");
 
         System.out.print("Enter the number of minutes the equipment was rented: ");
