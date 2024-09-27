@@ -8,7 +8,7 @@ public class Circle {
         //Constructure
         public testCircle() {
             setRadius(1);         }
-
+        
         // Method to set the radius, update diameter and area
         public void setRadius(double rad) {
             radius = rad;
