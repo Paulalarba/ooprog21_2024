@@ -1,53 +1,46 @@
 public class Circle {
-
-    // Circle class definition
-    public static class Circle {
+    
+    public static class testCircle {
         public double radius;
         public double diameter;
         public double area;
 
-        // Constructor
-        public Circle() {
-            setRadius(1); // Initialize with radius 1
-        }
+        //Constructure
+        public testCircle() {
+            setRadius(1);         }
 
         // Method to set the radius, update diameter and area
         public void setRadius(double rad) {
             radius = rad;
             diameter = 2 * radius;
-            area = Math.PI * radius * radius; // Use Math.PI for precision
-        }
+            area = Math.PI * radius * radius;         }
 
-        // Getter for radius
+        
         public double getRadius() {
             return radius;
         }
-
-        // Getter for diameter
+        
         public double getDiameter() {
             return diameter;
         }
 
-        // Getter for area
+       
         public double getArea() {
             return area;
         }
     }
-
-    // Main method to test the Circle class
+    
     public static void main(String[] args) {
-        Circle a = new Circle(); // Create first Circle object
-        a.setRadius(3); // Set radius for Circle a
+        testCircle a = new testCircle();
+        a.setRadius(3); 
 
-        // Print details of Circle a
         System.out.println("Radius of the first circle: " + a.getRadius());
         System.out.println("Diameter of the first circle: " + a.getDiameter());
         System.out.println("Area of the first circle: " + a.getArea());
 
-        Circle b = new Circle(); // Create second Circle object
-        b.setRadius(20); // Set radius for Circle b
+        testCircle b = new testCircle(); 
+        b.setRadius(20);
 
-        // Print details of Circle b
         System.out.println("Radius of the second circle: " + b.getRadius());
         System.out.println("Diameter of the second circle: " + b.getDiameter());
         System.out.println("Area of the second circle: " + b.getArea());
